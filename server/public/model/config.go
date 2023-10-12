@@ -2295,6 +2295,7 @@ type LdapSettings struct {
 	LoginButtonBorderColor *string `access:"experimental_features"`
 	LoginButtonTextColor   *string `access:"experimental_features"`
 
+	// Deprecated: Use LogSettings.AdvancedLoggingJSON with the LDAPTrace level instead.
 	Trace *bool `access:"authentication_ldap"` // telemetry: none
 }
 
